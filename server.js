@@ -15,7 +15,8 @@ app.use(express.static('public'));
 app.use(require('./routes/html.js'));
 app.use(require('./routes/workout.js'));
 
-mongoose.connect(`mongodb://localhost/workout`, {
+const MONGODB_URI=process.env.MONGODB_URI
+mongoose.connect(MONGODB_URI ||'mongodb://user:password1@ds117858.mlab.com:17858/heroku_0zbl4zxx', {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true

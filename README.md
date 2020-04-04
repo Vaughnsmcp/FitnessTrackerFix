@@ -16,12 +16,15 @@ _This is a fullstack program that helps create and document a workout routine. S
 _No known bugs._
 
 ## Technologies Used
-* _MongoB_
+* _Mongo_
+* _MongoDB_
 * _Mongoose_
 * _nodemon_
 * _JavaScript_
+* _Express_
 * _CSS_
 * _Heroku_
+
 
 
 ### License
